@@ -1,0 +1,820 @@
+[
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs1",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs1/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs1/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs1/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 1-Year Estimates",
+    "webService": "http://api.census.gov/data/2012/acs1",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs1",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs1-2012"
+  },
+  {
+    "c_vintage": 2011,
+    "c_dataset": [
+      "acs1",
+      "cd113",
+      2011
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2011/acs1/cd113/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2011/acs1/cd113/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2011/acs1/cd113/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2011 American Community Survey: 1-Year Estimates",
+    "webService": "http://api.census.gov/data/2011/acs1/cd113",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2011acs1cd113",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2011",
+    "long": "acs1-cd113-2011"
+  },
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs1",
+      "profile",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs1/profile/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs1/profile/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs1/profile/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 1-Year Profile Tables",
+    "webService": "http://api.census.gov/data/2012/acs1/profile",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs1profile",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs1-profile-2012"
+  },
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs3",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs3/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs3/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs3/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 3-Year Estimates",
+    "webService": "http://api.census.gov/data/2012/acs3",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs3",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs3-2012"
+  },
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs3",
+      "profile",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs3/profile/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs3/profile/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs3/profile/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 3-Year Profile Tables",
+    "webService": "http://api.census.gov/data/2012/acs3/profile",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs3profile",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs3-profile-2012"
+  },
+  {
+    "c_vintage": 2010,
+    "c_dataset": [
+      "acs5",
+      2010
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2010/acs5/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2010/acs5/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2010/acs5/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2010 American Community Survey: 5-Year Estimates",
+    "webService": "http://api.census.gov/data/2010/acs5",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2010acs5",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2010",
+    "long": "acs5-2010"
+  },
+  {
+    "c_vintage": 2011,
+    "c_dataset": [
+      "acs5",
+      2011
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2011/acs5/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2011/acs5/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2011/acs5/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2011 American Community Survey: 5-Year Estimates",
+    "webService": "http://api.census.gov/data/2011/acs5",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2011acs5",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2011",
+    "long": "acs5-2011"
+  },
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs5",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs5/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs5/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs5/tags.json",
+    "c_examplesLink": "http://api.census.gov/data/2012/acs5/examples.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 5-Year Estimates",
+    "webService": "http://api.census.gov/data/2012/acs5",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs5",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs5-2012"
+  },
+  {
+    "c_vintage": 2012,
+    "c_dataset": [
+      "acs5",
+      "profile",
+      2012
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2012/acs5/profile/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2012/acs5/profile/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2012/acs5/profile/tags.json",
+    "c_examplesLink": "http://api.census.gov/data/2012/acs5/profile/examples.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2012 American Community Survey: 5-Year Profile Tables",
+    "webService": "http://api.census.gov/data/2012/acs5/profile",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "The American Community Survey (ACS) is a nationwide survey designed to provide communities a fresh look at how they are changing. The ACS replaced the decennial census long form in 2010 and thereafter by collecting long form type information throughout the decade rather than only once every 10 years.  Questionnaires are mailed to a sample of addresses to obtain information about households -- that is, about each person and the housing unit itself.  The American Community Survey produces demographic, social, housing and economic estimates in the form of 1-year, 3-year and 5-year estimates based on population thresholds. The strength of the ACS is in estimating population and housing characteristics. It produces estimates for small areas, including census tracts and population subgroups.  Although the ACS produces population, demographic and housing unit estimates,it is the Census Bureau's Population Estimates Program that produces and disseminates the official estimates of the population for the nation, states, counties, cities and towns, and estimates of housing units for states and counties.  For 2010 and other decennial census years, the Decennial Census provides the official counts of population and housing units.",
+    "identifier": "2012acs5profile",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2012",
+    "long": "acs5-profile-2012"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "ftd"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/ftd/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/ftd/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/ftd/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - U.S. International Trade in Goods and Services",
+    "webService": "http://api.census.gov/data/eits/ftd",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsftd",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-ftd"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "hv"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/hv/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/hv/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/hv/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Housing Vacancies and Homeownership",
+    "webService": "http://api.census.gov/data/eits/hv",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitshv",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-hv"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "m3"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/m3/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/m3/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/m3/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Manufacturers' Shipments, Inventories, and Orders",
+    "webService": "http://api.census.gov/data/eits/m3",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsm3",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-m3"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "marts"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/marts/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/marts/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/marts/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Advance Monthly Sales for Retail and Food Services",
+    "webService": "http://api.census.gov/data/eits/marts",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsmarts",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-marts"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "mhs"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/mhs/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/mhs/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/mhs/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Manufactured Homes Survey",
+    "webService": "http://api.census.gov/data/eits/mhs",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsmhs",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-mhs"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "mrts"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/mrts/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/mrts/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/mrts/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Monthly Retail Trade and Food Services",
+    "webService": "http://api.census.gov/data/eits/mrts",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsmrts",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-mrts"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "mtis"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/mtis/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/mtis/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/mtis/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Manufacturing and Trade Inventories and Sales",
+    "webService": "http://api.census.gov/data/eits/mtis",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsmtis",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-mtis"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "mwts"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/mwts/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/mwts/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/mwts/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Monthly Wholesale Trade: Sales and Inventories",
+    "webService": "http://api.census.gov/data/eits/mwts",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsmwts",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-mwts"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "qfr"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/qfr/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/qfr/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/qfr/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Quarterly Financial Report",
+    "webService": "http://api.census.gov/data/eits/qfr",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsqfr",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-qfr"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "qpr"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/qpr/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/qpr/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/qpr/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Quarterly Survey of Public Pensions",
+    "webService": "http://api.census.gov/data/eits/qpr",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsqpr",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-qpr"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "qss"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/qss/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/qss/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/qss/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Quarterly Services Survey",
+    "webService": "http://api.census.gov/data/eits/qss",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsqss",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-qss"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "qtax"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/qtax/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/qtax/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/qtax/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Quarterly Summary of State & Local Taxes",
+    "webService": "http://api.census.gov/data/eits/qtax",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsqtax",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-qtax"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "resconst"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/resconst/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/resconst/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/resconst/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - New Residential Construction",
+    "webService": "http://api.census.gov/data/eits/resconst",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsresconst",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-resconst"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "ressales"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/ressales/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/ressales/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/ressales/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - New Home Sales",
+    "webService": "http://api.census.gov/data/eits/ressales",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsresales",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-ressales"
+  },
+  {
+    "c_dataset": [
+      "eits",
+      "vip"
+    ],
+    "c_geographyLink": "http://api.census.gov/data/eits/vip/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/eits/vip/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/eits/vip/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isTimeseries": true,
+    "title": "Economic Indicators Time Series - Construction Spending",
+    "webService": "http://api.census.gov/data/eits/vip",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Economic Indicators Mail List",
+    "description": "The U.S. Census Bureau.s economic indicator surveys provide monthly and quarterly data that are timely, reliable, and offer comprehensive measures of the U.S. economy. These surveys produce a variety of statistics covering construction, housing, international trade, retail trade, wholesale trade, services and manufacturing. The survey data provide measures of economic activity that allow analysis of economic performance and inform business investment and policy decisions. Other data included, which are not considered principal economic indicators, are the Quarterly Summary of State & Local Taxes, Quarterly Survey of Public Pensions, and the Manufactured Homes Survey.  For information on the reliability and use of the data, including important notes on estimation and sampling variance, seasonal adjustment, measures of sampling variability, and other information pertinent to the economic indicators, visit the individual programs' webpages - http://www.census.gov/cgi-bin/briefroom/BriefRm.",
+    "identifier": "eitsvip",
+    "mbox": "econ.indicators@census.gov",
+    "publisher": "US Census Bureau",
+    "spatial": "US",
+    "temporal": "2013",
+    "long": "eits-vip"
+  },
+  {
+    "long": "list-commands",
+    "optional": [
+
+    ],
+    "required": [
+
+    ],
+    "eval": "list_commands",
+    "short": "lc"
+  },
+  {
+    "long": "list-datasets",
+    "optional": [
+
+    ],
+    "required": [
+
+    ],
+    "eval": "list_datasets",
+    "short": "ld"
+  },
+  {
+    "c_vintage": 1990,
+    "c_dataset": [
+      "sf1",
+      1990
+    ],
+    "c_geographyLink": "http://api.census.gov/data/1990/sf1/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/1990/sf1/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/1990/sf1/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "1990 Decennial: Summary File 1",
+    "webService": "http://api.census.gov/data/1990/sf1",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "Data files available from Census 2000 and the 2010 Census. This file presents 100-percent population and housing figures for the total population, for 63 race categories, and for many other race and Hispanic or Latino categories. This includes age, sex, households, household relationship, housing units, occupancy status, and tenure (whether the residence is owned or rented). Also included are selected characteristics for a limited number of race and Hispanic or Latino categories. The data are available for the U.S., regions, divisions, states, counties, county subdivisions, places, census tracts, block groups, blocks, metropolitan areas (2000), core based statistical areas (2010), American Indian and Alaska Native areas, tribal subdivisions, Hawaiian home lands, congressional districts, and ZIP Code Tabulation Areas. Data are available down to the block level for many tabulations, but only to the census-tract level for others. The 2010 Census SF 1 has some tables on the population in group quarters that are available only to the county level. Available on DVD and American FactFinder.  The Census 2000 Summary File 1 data were released in three stages. Individual state files and two national files were released. The state-level data were released first, followed by the Advance National File, which covered the same data subjects, but includes national level summary data for areas that cross state boundaries such as whole metropolitan areas, whole American Indian areas, etc. The Final National File contains the same data subjects and geographic areas as the Advance National File, but adds the first available urban/rural and urbanized area data. For the most current release dates for these files, see the \"Census 2000 Release Schedule\" link on the AFFAmerican FactFinder Main Page.  The 2010 Census Summaray File 1 data were released in stages. Individual state files and a national update were released in 2011. The SF 1 urban/rural update is planned for release in Fall 2012. This file contains the same data subjects as the previously released files, but for additional geography, including the urban and rural parts of the United States, regions, divisions, states, counties, and places; and urbanized areas and urban clusters. See the 2010 Census Data Products At A Glance",
+    "identifier": "1990sf1",
+    "mbox": "pio@census.gov",
+    "publisher": "U.S. Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "1990",
+    "long": "sf1-1990"
+  },
+  {
+    "c_vintage": 2000,
+    "c_dataset": [
+      "sf1",
+      2000
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2000/sf1/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2000/sf1/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2000/sf1/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2000 Decennial: Summary File 1",
+    "webService": "http://api.census.gov/data/2000/sf1",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "Data files available from Census 2000 and the 2010 Census. This file presents 100-percent population and housing figures for the total population, for 63 race categories, and for many other race and Hispanic or Latino categories. This includes age, sex, households, household relationship, housing units, occupancy status, and tenure (whether the residence is owned or rented). Also included are selected characteristics for a limited number of race and Hispanic or Latino categories. The data are available for the U.S., regions, divisions, states, counties, county subdivisions, places, census tracts, block groups, blocks, metropolitan areas (2000), core based statistical areas (2010), American Indian and Alaska Native areas, tribal subdivisions, Hawaiian home lands, congressional districts, and ZIP Code Tabulation Areas. Data are available down to the block level for many tabulations, but only to the census-tract level for others. The 2010 Census SF 1 has some tables on the population in group quarters that are available only to the county level. Available on DVD and American FactFinder.  The Census 2000 Summary File 1 data were released in three stages. Individual state files and two national files were released. The state-level data were released first, followed by the Advance National File, which covered the same data subjects, but includes national level summary data for areas that cross state boundaries such as whole metropolitan areas, whole American Indian areas, etc. The Final National File contains the same data subjects and geographic areas as the Advance National File, but adds the first available urban/rural and urbanized area data. For the most current release dates for these files, see the \"Census 2000 Release Schedule\" link on the AFFAmerican FactFinder Main Page.  The 2010 Census Summaray File 1 data were released in stages. Individual state files and a national update were released in 2011. The SF 1 urban/rural update is planned for release in Fall 2012. This file contains the same data subjects as the previously released files, but for additional geography, including the urban and rural parts of the United States, regions, divisions, states, counties, and places; and urbanized areas and urban clusters. See the 2010 Census Data Products At A Glance",
+    "identifier": "2000sf1",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2000",
+    "long": "sf1-2000"
+  },
+  {
+    "c_vintage": 2010,
+    "c_dataset": [
+      "sf1",
+      2010
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2010/sf1/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2010/sf1/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2010/sf1/tags.json",
+    "c_examplesLink": "http://api.census.gov/data/2010/sf1/examples.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2010 Decennial: Summary File 1",
+    "webService": "http://api.census.gov/data/2010/sf1",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "Data files available from Census 2000 and the 2010 Census. This file presents 100-percent population and housing figures for the total population, for 63 race categories, and for many other race and Hispanic or Latino categories. This includes age, sex, households, household relationship, housing units, occupancy status, and tenure (whether the residence is owned or rented). Also included are selected characteristics for a limited number of race and Hispanic or Latino categories. The data are available for the U.S., regions, divisions, states, counties, county subdivisions, places, census tracts, block groups, blocks, metropolitan areas (2000), core based statistical areas (2010), American Indian and Alaska Native areas, tribal subdivisions, Hawaiian home lands, congressional districts, and ZIP Code Tabulation Areas. Data are available down to the block level for many tabulations, but only to the census-tract level for others. The 2010 Census SF 1 has some tables on the population in group quarters that are available only to the county level. Available on DVD and American FactFinder.  The Census 2000 Summary File 1 data were released in three stages. Individual state files and two national files were released. The state-level data were released first, followed by the Advance National File, which covered the same data subjects, but includes national level summary data for areas that cross state boundaries such as whole metropolitan areas, whole American Indian areas, etc. The Final National File contains the same data subjects and geographic areas as the Advance National File, but adds the first available urban/rural and urbanized area data. For the most current release dates for these files, see the \"Census 2000 Release Schedule\" link on the AFFAmerican FactFinder Main Page.  The 2010 Census Summaray File 1 data were released in stages. Individual state files and a national update were released in 2011. The SF 1 urban/rural update is planned for release in Fall 2012. This file contains the same data subjects as the previously released files, but for additional geography, including the urban and rural parts of the United States, regions, divisions, states, counties, and places; and urbanized areas and urban clusters. See the 2010 Census Data Products At A Glance",
+    "identifier": "2010sf1",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2010",
+    "long": "sf1-2010"
+  },
+  {
+    "c_vintage": 1990,
+    "c_dataset": [
+      "sf3",
+      1990
+    ],
+    "c_geographyLink": "http://api.census.gov/data/1990/sf3/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/1990/sf3/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/1990/sf3/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "1990 Decennial: Summary File 3",
+    "webService": "http://api.census.gov/data/1990/sf3",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "This Census 2000 file presents data on the population and housing long form subjects such as income and education. It includes population totals for ancestry groups. It also includes selected characteristics for a limited number of race and Hispanic or Latino categories. The data are available for the U.S., regions, divisions, states, counties, county subdivisions, places, census tracts, block groups, metropolitan areas, American Indian and Alaska Native areas, tribal subdivisions, Hawaiian home lands, congressional districts, and Zip Code Tabulation Areas. Available on CD-ROM, DVD, and American FactFinder.  After Census 2000, data on these subjects were produced from the American Community Survey or the Puerto Rico Community Survey.",
+    "identifier": "1990sf3",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "1990",
+    "long": "sf3-1990"
+  },
+  {
+    "c_vintage": 2000,
+    "c_dataset": [
+      "sf3",
+      2000
+    ],
+    "c_geographyLink": "http://api.census.gov/data/2000/sf3/geography.json",
+    "c_variablesLink": "http://api.census.gov/data/2000/sf3/variables.json",
+    "c_tagsLink": "http://api.census.gov/data/2000/sf3/tags.json",
+    "c_documentationLink": "http://www.census.gov/developers/",
+    "c_isAggregate": true,
+    "title": "2000 Decennial: Summary File 3",
+    "webService": "http://api.census.gov/data/2000/sf3",
+    "accessLevel": "public",
+    "bureauCode": [
+      "006:07"
+    ],
+    "contactPoint": "Census Bureau Call Center",
+    "description": "This Census 2000 file presents data on the population and housing long form subjects such as income and education. It includes population totals for ancestry groups. It also includes selected characteristics for a limited number of race and Hispanic or Latino categories. The data are available for the U.S., regions, divisions, states, counties, county subdivisions, places, census tracts, block groups, metropolitan areas, American Indian and Alaska Native areas, tribal subdivisions, Hawaiian home lands, congressional districts, and Zip Code Tabulation Areas. Available on CD-ROM, DVD, and American FactFinder.  After Census 2000, data on these subjects were produced from the American Community Survey or the Puerto Rico Community Survey.",
+    "identifier": "2000sf3",
+    "mbox": "pio@census.gov",
+    "publisher": "US Census Bureau",
+    "references": [
+      "http://www.census.gov/developers/"
+    ],
+    "spatial": "US",
+    "temporal": "2000",
+    "long": "sf3-2000"
+  },
+  {
+    "long": "update-commands",
+    "optional": [
+
+    ],
+    "required": [
+
+    ],
+    "eval": "update_commands",
+    "short": "uc"
+  }
+]
