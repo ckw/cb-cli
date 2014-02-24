@@ -52,6 +52,7 @@ def generate_commands
     long = (long << vintage) if vintage
     d['long'] = long.join('-')
     d['required'] = ['get', 'for']
+    d['optional'] = ['--in']
     d
   }
 end

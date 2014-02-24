@@ -30,6 +30,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -64,6 +67,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -98,6 +104,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -131,6 +140,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -165,6 +177,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -198,6 +213,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -231,6 +249,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -265,6 +286,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -297,7 +321,34 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
+  },
+  {
+    "long": "describe-command",
+    "optional": [
+
+    ],
+    "required": [
+      "command"
+    ],
+    "description": "yo dawg",
+    "eval": "describe_command",
+    "short": "dc"
+  },
+  {
+    "long": "edit-config",
+    "optional": [
+
+    ],
+    "required": [
+
+    ],
+    "description": "Edit the configuration file for the cli",
+    "eval": "edit_config",
+    "short": "ec"
   },
   {
     "c_dataset": [
@@ -326,6 +377,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -355,6 +409,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -384,6 +441,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -413,6 +473,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -442,6 +505,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -471,6 +537,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -500,6 +569,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -529,6 +601,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -558,6 +633,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -587,6 +665,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -616,6 +697,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -645,6 +729,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -674,6 +761,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -703,6 +793,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -732,6 +825,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -809,6 +905,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -842,6 +941,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -876,6 +978,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -909,6 +1014,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -942,6 +1050,9 @@
     "required": [
       "get",
       "for"
+    ],
+    "optional": [
+      "--in"
     ]
   },
   {
@@ -954,28 +1065,5 @@
     ],
     "eval": "update_commands",
     "short": "uc"
-  },
-  {
-    "long": "describe-command",
-    "optional": [
-
-    ],
-    "required": [
-      "command"
-    ],
-    "description": "yo dawg",
-    "eval": "describe_command",
-    "short": "dc"
-  },
-  {
-    "long": "edit-config",
-    "optional": [
-
-    ],
-    "required": [
-    ],
-    "description": "Edit the configuration file for the cli",
-    "eval": "edit_config",
-    "short": "ec"
   }
 ]
