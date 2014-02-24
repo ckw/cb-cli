@@ -15,6 +15,15 @@ def generate_command
   ($stderr.puts "No key specified in #{config_path}"; exit 1) unless key
 
   (eval @cu.eval; exit) if @cu.eval
+
+  com = @cu.commands[@cu.command]
+  uri = "curl -s -S '#{com['webService']}#{build_query}&key=#{key}'"
+end
+
+def build_query
+  query = @cu.required.map{|k,v| "#{k}=#{v}"}.join('&')
+  query = '?' << query if query
+  query
 end
 
 def commands_path
