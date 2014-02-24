@@ -17,12 +17,17 @@ def generate_command
   (eval @cu.eval; exit) if @cu.eval
 
   com = @cu.commands[@cu.command]
-  uri = "curl -s -S '#{com['webService']}#{build_query}&key=#{key}'"
+  query = "curl -s -S '#{com['webService']}#{build_query}&key=#{key}'"
+  (puts query; exit) unless (@cu.optional.keys & ['d', 'dry-run']).empty?
+
+  query
 end
 
 def build_query
   query = @cu.required.map{|k,v| "#{k}=#{v}"}.join('&')
-  query = '?' << query if query
+  query = "?#{query}" if query
+  in_param = @cu.optional['in']
+  query = "#{query}&in=#{in_param}" if (query && in_param)
   query
 end
 
