@@ -45,9 +45,9 @@ def refresh_cache
 
     threads << Thread.new{`curl -o #{geo_fp} -s -S #{geo_uri}`; "created #{geo_fp}"}
     threads << Thread.new{`curl -o #{var_fp} -s -S #{var_uri}`; "created #{var_fp}"}
-    }
+  }
 
-    threads.each{|t| t.join; puts t.value}
+  threads.each{|t| t.join; puts t.value}
 end
 
 def datasets
