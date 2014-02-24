@@ -26,6 +26,7 @@ def generate_commands
     long = d['c_dataset']
     long = (long << vintage) if vintage
     d['long'] = long.join('-')
+    d['required'] = ['get', 'for']
     d
   }
 end

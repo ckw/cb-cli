@@ -26,7 +26,11 @@
     ],
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs1-2012"
+    "long": "acs1-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2011,
@@ -56,7 +60,11 @@
     ],
     "spatial": "US",
     "temporal": "2011",
-    "long": "acs1-cd113-2011"
+    "long": "acs1-cd113-2011",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2012,
@@ -86,7 +94,11 @@
     ],
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs1-profile-2012"
+    "long": "acs1-profile-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2012,
@@ -115,7 +127,11 @@
     ],
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs3-2012"
+    "long": "acs3-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2012,
@@ -145,7 +161,11 @@
     ],
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs3-profile-2012"
+    "long": "acs3-profile-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2010,
@@ -174,7 +194,11 @@
     ],
     "spatial": "US",
     "temporal": "2010",
-    "long": "acs5-2010"
+    "long": "acs5-2010",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2011,
@@ -203,7 +227,11 @@
     ],
     "spatial": "US",
     "temporal": "2011",
-    "long": "acs5-2011"
+    "long": "acs5-2011",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2012,
@@ -233,7 +261,11 @@
     ],
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs5-2012"
+    "long": "acs5-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2012,
@@ -261,7 +293,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2012",
-    "long": "acs5-profile-2012"
+    "long": "acs5-profile-2012",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -286,7 +322,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-ftd"
+    "long": "eits-ftd",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -311,7 +351,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-hv"
+    "long": "eits-hv",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -336,7 +380,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-m3"
+    "long": "eits-m3",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -361,7 +409,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-marts"
+    "long": "eits-marts",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -386,7 +438,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-mhs"
+    "long": "eits-mhs",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -411,7 +467,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-mrts"
+    "long": "eits-mrts",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -436,7 +496,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-mtis"
+    "long": "eits-mtis",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -461,7 +525,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-mwts"
+    "long": "eits-mwts",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -486,7 +554,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-qfr"
+    "long": "eits-qfr",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -511,7 +583,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-qpr"
+    "long": "eits-qpr",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -536,7 +612,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-qss"
+    "long": "eits-qss",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -561,7 +641,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-qtax"
+    "long": "eits-qtax",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -586,7 +670,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-resconst"
+    "long": "eits-resconst",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -611,7 +699,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-ressales"
+    "long": "eits-ressales",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_dataset": [
@@ -636,7 +728,11 @@
     "publisher": "US Census Bureau",
     "spatial": "US",
     "temporal": "2013",
-    "long": "eits-vip"
+    "long": "eits-vip",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "long": "list-commands",
@@ -659,6 +755,28 @@
     ],
     "eval": "list_datasets",
     "short": "ld"
+  },
+  {
+    "long": "list-geography",
+    "optional": [
+
+    ],
+    "required": [
+      "command"
+    ],
+    "eval": "list_geography",
+    "short": "lg"
+  },
+  {
+    "long": "list-variables",
+    "optional": [
+
+    ],
+    "required": [
+      "command"
+    ],
+    "eval": "list_variables",
+    "short": "lv"
   },
   {
     "c_vintage": 1990,
@@ -687,7 +805,11 @@
     ],
     "spatial": "US",
     "temporal": "1990",
-    "long": "sf1-1990"
+    "long": "sf1-1990",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2000,
@@ -716,7 +838,11 @@
     ],
     "spatial": "US",
     "temporal": "2000",
-    "long": "sf1-2000"
+    "long": "sf1-2000",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2010,
@@ -746,7 +872,11 @@
     ],
     "spatial": "US",
     "temporal": "2010",
-    "long": "sf1-2010"
+    "long": "sf1-2010",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 1990,
@@ -775,7 +905,11 @@
     ],
     "spatial": "US",
     "temporal": "1990",
-    "long": "sf3-1990"
+    "long": "sf3-1990",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "c_vintage": 2000,
@@ -804,7 +938,11 @@
     ],
     "spatial": "US",
     "temporal": "2000",
-    "long": "sf3-2000"
+    "long": "sf3-2000",
+    "required": [
+      "get",
+      "for"
+    ]
   },
   {
     "long": "update-commands",
