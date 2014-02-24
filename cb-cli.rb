@@ -28,6 +28,10 @@ end
 
 def commands_path
   return @commands_path if @commands_path
+  # this location is a bit weird if you want to pull,
+  # as the file commands.json is updated on update-commands
+  # git checkout .; git pull; ./cb-cli.rb uc
+  # should work fine, though
   @commands_path = File.join(File.dirname(follow_if_link(__FILE__)), 'src', 'commands.json')
 end
 
