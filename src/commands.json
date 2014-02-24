@@ -816,5 +816,27 @@
     ],
     "eval": "update_commands",
     "short": "uc"
+  },
+  {
+    "long": "list-variables",
+    "optional": [
+
+    ],
+    "required": [
+      "command"
+    ],
+    "eval": "list_variables",
+    "short": "lv"
+  },
+  {
+    "long": "list-geography",
+    "optional": [
+
+    ],
+    "required": [
+      "command"
+    ],
+    "eval": "list_geography",
+    "short": "lg"
   }
 ]
