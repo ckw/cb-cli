@@ -956,25 +956,15 @@
     "short": "uc"
   },
   {
-    "long": "list-variables",
+    "long": "describe-command",
     "optional": [
 
     ],
     "required": [
       "command"
     ],
-    "eval": "list_variables",
-    "short": "lv"
-  },
-  {
-    "long": "list-geography",
-    "optional": [
-
-    ],
-    "required": [
-      "command"
-    ],
-    "eval": "list_geography",
-    "short": "lg"
+    "description": "yo dawg",
+    "eval": "describe_command",
+    "short": "dc"
   }
 ]

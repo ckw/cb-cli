@@ -84,6 +84,16 @@ def list_commands
   puts JSON.pretty_generate(@cu.commands.map{|k, v| v['long']}.uniq)
 end
 
+def describe_command
+  c_arg = @cu.required['command']
+  c = @cu.commands[c_arg]
+
+  ($stderr.puts "Command not found: #{c_arg}"; exit 1) unless c
+  ($stderr.puts "No description for command: #{c_arg}"; exit 1) unless c['description']
+
+  puts c['description']
+end
+
 def list_variables
   c_arg = @cu.required['command']
   c = @cu.commands[c_arg]
