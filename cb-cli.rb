@@ -2,11 +2,18 @@
 #
 require 'cli_utils'
 require 'json'
+require 'yaml'
 require 'fileutils'
 
 def generate_command
   @cu = CliUtils.new(commands_path)
-  #TODO
+
+  init_config unless File.exist?(config_path)
+  @config = YAML.load(File.open(config_path,'r').read)
+
+  key = (@config['defaults'] || {})['api_key']
+  ($stderr.puts "No key specified in #{config_path}"; exit 1) unless key
+
   (eval @cu.eval; exit) if @cu.eval
 end
 
@@ -29,6 +36,27 @@ def generate_commands
     d['required'] = ['get', 'for']
     d
   }
+end
+
+def cb_directory
+  File.join(ENV['HOME'],'.cb-cli')
+end
+
+def config_path
+  File.join(cb_directory,'cb-config')
+end
+
+def init_config
+  FileUtils.mkdir_p(cb_directory)
+  puts "Api Key:\n"
+  key = $stdin.gets.chomp
+
+conf=<<Conf
+defaults:
+  api_key: #{key}
+Conf
+
+  File.open(config_path,'w',0600){|f| f.puts(conf)}
 end
 
 def refresh_cache
@@ -92,6 +120,10 @@ def describe_command
   ($stderr.puts "No description for command: #{c_arg}"; exit 1) unless c['description']
 
   puts c['description']
+end
+
+def edit_config
+  Kernel.exec("#{ENV['EDITOR'] || 'vim'} #{config_path}")
 end
 
 def list_variables

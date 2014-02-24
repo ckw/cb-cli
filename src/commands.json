@@ -966,5 +966,16 @@
     "description": "yo dawg",
     "eval": "describe_command",
     "short": "dc"
+  },
+  {
+    "long": "edit-config",
+    "optional": [
+
+    ],
+    "required": [
+    ],
+    "description": "Edit the configuration file for the cli",
+    "eval": "edit_config",
+    "short": "ec"
   }
 ]
