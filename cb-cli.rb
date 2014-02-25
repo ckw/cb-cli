@@ -7,7 +7,6 @@ require 'fileutils'
 
 def generate_command
   @cu = CliUtils.new(commands_path)
-
   init_config unless File.exist?(config_path)
   @config = YAML.load(File.open(config_path,'r').read)
 
@@ -152,7 +151,7 @@ end
 
 def list_commands
   #TODO print usage, so expose in cli_utils
-  puts JSON.pretty_generate(@cu.commands.map{|k, v| v['long']}.uniq)
+  puts @cu.commands.keys.map{|k| @cu.usage(k)}.sort.uniq
 end
 
 def list_geography
