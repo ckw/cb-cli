@@ -91,6 +91,7 @@ Conf
 end
 
 def fetch_variables(command)
+  $stderr.puts('caching variables, this may take a couple seconds')
   dir = File.join(cache_path,command['identifier'])
   FileUtils.mkdir_p(dir)
 
@@ -100,6 +101,7 @@ def fetch_variables(command)
 end
 
 def fetch_geography(command)
+  $stderr.puts('caching geography, this may take a couple seconds')
   dir = File.join(cache_path,command['identifier'])
   FileUtils.mkdir_p(dir)
 
