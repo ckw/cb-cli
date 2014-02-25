@@ -77,5 +77,16 @@
     ],
     "eval": "update_commands",
     "short": "uc"
+  },
+  {
+    "long": "refresh-all-caches",
+    "optional": [
+
+    ],
+    "required": [
+
+    ],
+    "eval": "refresh_all_caches",
+    "short": "rac"
   }
 ]
