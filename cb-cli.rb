@@ -26,10 +26,12 @@ end
 
 def build_query
   query = @cu.required.map{|k,v| "#{k}=#{v}"}.join('&')
-  query = "?#{query}" if query
   in_param = @cu.optional['in']
-  query = "#{query}&in=#{in_param}" if (query && in_param)
-  query
+  jsonp_param = @cu.optional['jsonp']
+
+  query = "#{query}&in=#{in_param}" if in_param
+  query = "#{query}&jsonp=#{jsonp_param}" if jsonp_param
+  "?#{query}"
 end
 
 def commands_path
@@ -64,7 +66,7 @@ def generate_commands
     long = (long << vintage) if vintage
     d['long'] = long.join('-')
     d['required'] = ['get', 'for']
-    d['optional'] = ['--in']
+    d['optional'] = ['--in', '--jsonp']
     d
   }
 end
