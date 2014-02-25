@@ -7,6 +7,8 @@ require 'fileutils'
 
 def generate_command
   @cu = CliUtils.new(commands_path)
+  help if (!@cu.command || !(@cu.optional.keys & ['h', 'help']).empty?)
+
   init_config unless File.exist?(config_path)
   @config = YAML.load(File.open(config_path,'r').read)
 
@@ -130,6 +132,65 @@ def follow_if_link(path, depth=5)
   path
 end
 
+def help_string
+<<HSTR
+cb-cli [options] <command>
+
+
+OPTIONS:
+  -d,-dry-run : print the generated curl command, if one exists;
+                inoperative for commands which generate no curl string
+
+  -h,-help    : open help using $PAGER or if $PAGER is not set, less;
+                providing no command does the same
+
+COMMANDS: (short alternative names in parentheses)
+  #{commands_usage.join("\n  ")}
+
+
+EXAMPLES:
+  Note that command arguments should be wrapped in quotes, as there
+  are a number of characters which appear frequently in arguments that
+  interact poorly with shells. e.g., *
+
+  list usage for all commands:
+
+    cb-cli lc
+
+
+  print the description for acs1-2012 (The 2012 version of the one year
+  American Community Survey, if I am interpreting the output correctly)
+
+    cb-cli dc acs1-2012
+
+
+  list all variables for acs1-2012:
+
+    cb-cli lv acs1-2012
+
+
+  list all geographic regions for acs1-2012:
+
+    cb-cli lg acs1-2012
+
+
+  list the number of householders age 25-44 with income above $200,000
+  in Washington State, by congressional district:
+
+    cb-cli acs1-2012 "NAME,B19037_035E" "congressional+district:*" --in "state:53"
+
+  Note that geographic regions tend to have spaces in them, as in the previous
+  command: \"congressional district\". When writing commands using such regions,
+  replace spaces with \"+\".
+
+
+HSTR
+end
+
+def commands_usage
+  @cu.commands.keys.map{|k| @cu.usage(k)}.sort.uniq
+end
+
 ### EVAL COMMANDS ###############################################################
 def list_datasets
   puts JSON.pretty_generate(datasets)
@@ -149,9 +210,12 @@ def edit_config
   Kernel.exec("#{ENV['EDITOR'] || 'vim'} #{config_path}")
 end
 
+def help
+  Kernel.exec("echo '#{help_string}' | #{ENV['PAGER'] || 'less'}")
+end
+
 def list_commands
-  #TODO print usage, so expose in cli_utils
-  puts @cu.commands.keys.map{|k| @cu.usage(k)}.sort.uniq
+  puts commands_usage
 end
 
 def list_geography
