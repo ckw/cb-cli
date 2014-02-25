@@ -1,5 +1,5 @@
 #! /usr/bin/env ruby
-#
+
 require 'cli_utils'
 require 'json'
 require 'yaml'
@@ -33,16 +33,27 @@ end
 
 def commands_path
   return @commands_path if @commands_path
-  # this location is a bit weird if you want to pull,
-  # as the file commands.json is updated on update-commands
-  # git checkout .; git pull; ./cb-cli.rb uc
-  # should work fine, though
-  @commands_path = File.join(File.dirname(follow_if_link(__FILE__)), 'src', 'commands.json')
+  @commands_path = File.join(cache_path, 'commands.json')
+
+  unless File.exist?(@commands_path)
+   from_git = JSON.parse(File.open(commands_path_git,'r').read)
+   new = (from_git + generate_commands).uniq{|c| c['long']}.sort_by{|c| c['long']}
+   File.open(commands_path,'w+'){|f| f.puts(JSON.pretty_generate(new))}
+  end
+
+  @commands_path
+end
+
+def commands_path_git
+  return @commands_path_git if @commands_path_git
+  @commands_path_git = File.join(File.dirname(follow_if_link(__FILE__)), 'src', 'commands.json')
 end
 
 def cache_path
   return @cache_path if @cache_path
-  @cache_path = File.join(File.dirname(follow_if_link(__FILE__)), 'cache')
+  @cache_path = File.join(cb_directory, 'cache')
+  FileUtils.mkdir_p(@cache_path) unless Dir.exist?(@cache_path)
+  @cache_path
 end
 
 def generate_commands
@@ -78,23 +89,22 @@ Conf
   File.open(config_path,'w',0600){|f| f.puts(conf)}
 end
 
-def refresh_cache
-  threads = []
-  datasets.each{|d|
-    dir = File.join(cache_path,d['identifier'])
-    FileUtils.mkdir_p(dir)
+def fetch_variables(command)
+  dir = File.join(cache_path,command['identifier'])
+  FileUtils.mkdir_p(dir)
 
-    geo_uri = d['c_geographyLink']
-    geo_fp = File.join(dir,'geography.json')
+  uri = command['c_variablesLink']
+  fp = File.join(dir,'variables.json')
+  `curl -o #{fp} -s -S #{uri}`
+end
 
-    var_uri = d['c_variablesLink']
-    var_fp = File.join(dir,'variables.json')
+def fetch_geography(command)
+  dir = File.join(cache_path,command['identifier'])
+  FileUtils.mkdir_p(dir)
 
-    threads << Thread.new{`curl -o #{geo_fp} -s -S #{geo_uri}`; "created #{geo_fp}"}
-    threads << Thread.new{`curl -o #{var_fp} -s -S #{var_uri}`; "created #{var_fp}"}
-  }
-
-  threads.each{|t| t.join; puts t.value}
+  uri = command['c_geographyLink']
+  fp = File.join(dir,'geography.json')
+  `curl -o #{fp} -s -S #{uri}`
 end
 
 def datasets
@@ -126,11 +136,6 @@ def list_datasets
   puts JSON.pretty_generate(datasets)
 end
 
-def list_commands
-  #TODO print usage, so expose in cli_utils
-  puts JSON.pretty_generate(@cu.commands.map{|k, v| v['long']}.uniq)
-end
-
 def describe_command
   c_arg = @cu.required['command']
   c = @cu.commands[c_arg]
@@ -145,15 +150,9 @@ def edit_config
   Kernel.exec("#{ENV['EDITOR'] || 'vim'} #{config_path}")
 end
 
-def list_variables
-  c_arg = @cu.required['command']
-  c = @cu.commands[c_arg]
-
-  ($stderr.puts "Command not found: #{c_arg}"; exit 1) unless c
-  ($stderr.puts "No variables found for command: #{c_arg}"; exit 1) unless c['identifier']
-
-  path = File.join(cache_path,c['identifier'],'variables.json')
-  File.open(path,'r'){|f| puts f.read}
+def list_commands
+  #TODO print usage, so expose in cli_utils
+  puts JSON.pretty_generate(@cu.commands.map{|k, v| v['long']}.uniq)
 end
 
 def list_geography
@@ -164,17 +163,51 @@ def list_geography
   ($stderr.puts "No geography found for command: #{c_arg}"; exit 1) unless c['identifier']
 
   path = File.join(cache_path,c['identifier'],'geography.json')
+  fetch_geography(c) unless File.exist?(path)
   File.open(path,'r'){|f| puts f.read}
+end
+
+def list_variables
+  c_arg = @cu.required['command']
+  c = @cu.commands[c_arg]
+
+  ($stderr.puts "Command not found: #{c_arg}"; exit 1) unless c
+  ($stderr.puts "No variables found for command: #{c_arg}"; exit 1) unless c['identifier']
+
+  path = File.join(cache_path,c['identifier'],'variables.json')
+  fetch_variables(c) unless File.exist?(path)
+
+  File.open(path,'r'){|f| puts f.read}
+end
+
+# this is expensive
+def refresh_all_caches
+  update_commands
+  threads = []
+  datasets.each{|d|
+    dir = File.join(cache_path,d['identifier'])
+    FileUtils.mkdir_p(dir)
+
+    geo_uri = d['c_geographyLink']
+    geo_fp = File.join(dir,'geography.json')
+
+    var_uri = d['c_variablesLink']
+    var_fp = File.join(dir,'variables.json')
+
+    threads << Thread.new{`curl -o #{geo_fp} -s -S #{geo_uri}`; "created #{geo_fp}"}
+    threads << Thread.new{`curl -o #{var_fp} -s -S #{var_uri}`; "created #{var_fp}"}
+  }
+
+  threads.each{|t| t.join; puts t.value}
 end
 
 def update_commands
   #TODO rescue parse errors, old must be array
    old = JSON.parse(File.open(commands_path,'r').read)
+   from_git = JSON.parse(File.open(commands_path_git,'r').read)
    #implicit assumption: datasets will not be removed in the future
-   new = (generate_commands + old).uniq{|c| c['long']}.sort_by{|c| c['long']}
+   new = (from_git + generate_commands + old).uniq{|c| c['long']}.sort_by{|c| c['long']}
    File.open(commands_path,'w+'){|f| f.puts(JSON.pretty_generate(new))}
-
-   refresh_cache
 end
 #################################################################################
 
