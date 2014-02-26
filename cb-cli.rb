@@ -81,7 +81,7 @@ end
 
 def init_config
   FileUtils.mkdir_p(cb_directory)
-  puts "Api Key:\n"
+  $stderr.puts "Api Key:\n"
   key = $stdin.gets.chomp
 
 conf=<<Conf
