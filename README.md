@@ -66,7 +66,7 @@ defaults:
 
 * Command arguments should be wrapped in quotes, as there
   are a number of characters which appear frequently in arguments that
-  interact poorly with shells. e.g., '*'
+  interact poorly with shells. e.g., *
 
 * Variable and geography files for each dataset are lazily cached locally.
 
