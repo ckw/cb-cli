@@ -64,6 +64,10 @@ defaults:
 
 * Most commands are automatically generated with the use of the [discovery file](http://api.census.gov/data.json)
 
+* Command arguments should be wrapped in quotes, as there
+  are a number of characters which appear frequently in arguments that
+  interact poorly with shells. e.g., '*'
+
 * Variable and geography files for each dataset are lazily cached locally.
 
 * To update the commands, in the event that the CB adds more datasets, run
