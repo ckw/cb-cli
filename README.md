@@ -68,7 +68,7 @@ defaults:
   are a number of characters which appear frequently in arguments that
   interact poorly with shells. e.g., *
 
-* Variable and geography files for each dataset are lazily cached locally.
+* Variable and geography files for each dataset are cached locally, lazily.
 
 * To update the commands, in the event that the CB adds more datasets, run
 
