@@ -18,7 +18,8 @@ def generate_command
   (eval @cu.eval; exit) if @cu.eval
 
   com = @cu.commands[@cu.command]
-  query = "curl -s -S '#{com['webService']}#{build_query}&key=#{key}'"
+  url = (com['distribution'].keep_if{|d| d['format'] == 'API'} || []).first['accessURL']
+  query = "curl -s -S '#{url}#{build_query}&key=#{key}'"
   (puts query; exit) unless (@cu.optional.keys & ['d', 'dry-run']).empty?
 
   query
@@ -116,7 +117,7 @@ def datasets
   return @datasets if @datasets
 
   datasets_uri = 'http://api.census.gov/data.json'
-  @datasets = JSON.parse(`curl -s -S #{datasets_uri}`)
+  @datasets = (JSON.parse(`curl -s -S #{datasets_uri}`) || {})['dataset']
 end
 
 def p(arg)
