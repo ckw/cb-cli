@@ -7,7 +7,7 @@ To install, you'll need
 
 * ruby, probably 1.9+; it's untested on earlier versions
 * curl
-* an api key (get one [here](https://www.census.gov/developers/tos/key_request.html))
+* an api key (get one [here](http://api.census.gov/data/key_signup.html))
 * bundler (optional)
 
 clone this repository
